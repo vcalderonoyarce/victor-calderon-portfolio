@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Víctor Calderón Oyarce - Full stack web developer',
-  description: 'Built with ❤️ in ReactJS (Next 14)',
+  description: 'Built with ❤️ in ReactJS (NextJS 14)',
 }
 
 export default function RootLayout({
