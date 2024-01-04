@@ -23,7 +23,7 @@ export default function Home() {
               </div>
 
               <p className="text-[#FFF] mt-4 sm:px-32 sm:text-xl text-smtracking-tighter">
-                &lt;@<span className="text-[var(--accent-color)] accent-color font-semibold">vcalderonoyarce</span> / &gt;
+                &lt; @<span className={fira_code.className +" text-[var(--accent-color)] accent-color font-semibold"}>vcalderonoyarce</span> / &gt;
               </p>
 
               <p className="sm:mt-8 mt-3 sm:px-44 text-[#FFF] text-4xl sm:text-6xl font-semibold tracking-tighter">
