@@ -6,7 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --accent-color: rgb(13, 211, 102);
+  --accent-color: #00E9B8;
 }
 
 .accent_color {
