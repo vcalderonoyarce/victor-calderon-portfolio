@@ -10,10 +10,11 @@ export default class Header extends Component {
                 <nav id={styles.site_header} className="text-white backdrop-blur px-4 lg:px-6 py-5">
                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                         <a href="/" className="flex items-center">
-                            <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white">
-                                V
+                            <span className="self-center text-2xl whitespace-nowrap dark:text-white">
+                                <span className="text-[var(--accent-color)] font-bold">V</span>
                                 <span className="font-normal">C</span>
-                            <span className="text-[var(--accent-color)]">.</span></span>
+                                <span className="text-[var(--accent-color)] font-extrabold">.</span>
+                            </span>
                         </a>
                         <div className="flex items-center lg:order-2">
                             <a href="https://www.linkedin.com/in/vcalderonoyarce/" target="_blank" className="hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-3 lg:px-4 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
