@@ -13,6 +13,18 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 export const metadata: Metadata = {
+  icons: {
+    icon: [
+      {
+        url: '/images/favicon.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/images/favicon.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ]
+  },
   title: 'Víctor Calderón Oyarce - Full stack web developer',
   description: 'Built with ❤️ in ReactJS (NextJS 14)',
 }
@@ -23,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html suppressHydrationWarning={true} lang="en">
       <body className={poppins.className}>
         <Header />
         {children}
